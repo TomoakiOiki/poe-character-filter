@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "poe-character-filter",
+  "description": "",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.pathofexile.com/account/view-profile/*/characters"
+      ],
+      "js": ["src/main.js"]
+    }
+  ],
+  "permissions": ["tabs", "storage"]
+}
