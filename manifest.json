@@ -6,7 +6,7 @@
   "content_scripts": [
     {
       "matches": [
-        "https://www.pathofexile.com/account/view-profile/*/characters"
+        "https://www.pathofexile.com/account/view-profile/*/characters*"
       ],
       "js": ["src/main.js"]
     }
